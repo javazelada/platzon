@@ -1,0 +1,31 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traductor de idoma platzon",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javazelada/platzon.git"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "js"
+  ],
+  "author": "Javier Zelada y. <javazelada@gmail.com> (https://twitter.com/javazelada1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javazelada/platzon/issues"
+  },
+  "homepage": "https://github.com/javazelada/platzon#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
